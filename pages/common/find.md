@@ -20,6 +20,6 @@
 
 `find {{root_path}} -size +500k -size -10MB -iname {{'*.TaR.gZ'}}`
 
-- delete files older than a certain number of days
+- delete files by name, older than a certain number of days
 
 `find {{root_path}} -name {{'*.py'}} -mtime {{-180d}} -delete`
